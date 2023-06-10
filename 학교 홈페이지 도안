@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>네이버의 문학 자료</title>
+	<style>
+		.dropdown-button {
+			background-color: peru;
+			padding: 12px;
+			font-size: 18px;
+			border: none;
+		}
+		.dropdown {
+			position: relative;
+			display: inline-block;
+		}
+		.dropdown-content {
+			display: none;
+			position: absolute;
+			background-color: blue;
+			min-width: 75px;
+			padding: 5px;
+			box-shadow: 10px 8px 16px 0px rgba(0,0,0,0.2);
+		}
+		.dropdown-content a {
+			color: red;
+			padding: 10px;
+			text-decoration: none;
+			display: block;
+		}
+		.dropdown-content a:hover { background-color: peru; }
+		.dropdown:hover .dropdown-content { display: block; }
+		.dropdown:hover .dropdown-button { background-color: firebrick; }
+
+		div {
+            height: 450px;
+            width: 560px;
+
+            animation-name: ilsan;
+            animation-duration: 2s;
+            animation-iteration-count: 1;
+        }
+
+        @keyframes ilsan{
+            from { margin-top:100%; }
+            to { margin-top: 0%; }
+
+        }
+        #alter {
+            -webkit-animation-direction: alternate;
+            animation-direction: alternate;
+        }
+	</style>
+</head> 
+
+<body>
+
+	<h1>일산국제컨벤션 부서 소개</h1>
+	<div class="dropdown">
+		<button class="dropdown-button">Dropdown</button>
+		<div class="dropdown-content">
+			<a href="https://novel.naver.com/webnovel/weekday">novel</a>
+			<a href="https://series.naver.com/novel/home.series">series</a>
+			<a href="https://serieson.naver.com/v3/movie">web novel</a>
+			<a href="https://series.naver.com/ebook/home.series">e book</a>
+		</div>
+	</div>
+	<div id="alter"><a href='https://ifh.cc/v-ZkBx1s' target='_blank'><img src='https://ifh.cc/g/ZkBx1s.gif'%3E%3E</a></div>
+</body>
+
+</html>
